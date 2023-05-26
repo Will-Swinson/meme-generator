@@ -32,7 +32,7 @@ export default function Meme() {
   }
 
   function submitForm(e) {
-    const { name, type, value } = e.target;
+    const { name, value } = e.target;
 
     setMeme((prevMeme) => {
       return {
